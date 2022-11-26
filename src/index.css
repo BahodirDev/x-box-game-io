@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar{
+  background: rgba(0, 0, 0, 0.76);
+  box-shadow: 4px 6px 9px #fff ;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 10px 25px;
+ 
+}
+.text{
+  color: #fff;
+}
+.text:hover{
+  color: gold;
+}
+.logo{
+  width: 75px;
+  height: 65px;
+  border-radius: 12px;
+}
+.icn{
+  font-size: 33px;
+  padding: 0px 20px;
+  cursor: pointer;
+  color: #fff;
+}
+.icn:hover{
+ transform: scale(1.1);
+}

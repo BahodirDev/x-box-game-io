@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width:415px) {
+  .navbar-toggler{
+    color: #fff;
+  }
+}
